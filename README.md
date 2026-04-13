@@ -32,7 +32,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 🌐 Domain Mode (`-d`)
 | Module | What it finds |
@@ -46,7 +46,7 @@
 | **Breach Check** | Certificate transparency logs via crt.sh |
 | **Google Dorks** | Ready-to-run search queries for deeper recon |
 
-### 👤 Username Mode (`-u`)
+###  Username Mode (`-u`)
 | Module | What it finds |
 |---|---|
 | **Platform Check** | 20 platforms: GitHub, Reddit, Twitter/X, TryHackMe, HackTheBox, PyPI, NPM... |
@@ -87,7 +87,7 @@ python osint.py -d example.com
 
 ---
 
-## 🧪 Usage
+##  Usage
 
 ```bash
 # Domain investigation
@@ -102,7 +102,7 @@ python3 osint.py --help
 
 ---
 
-## 📸 Example Output
+##  Example Output
 
 ### Domain Scan
 ```
@@ -156,7 +156,7 @@ Only scan targets you are **authorized** to test. These are safe for practice:
 
 ---
 
-## 💼 Real-World Use Cases
+##  Real-World Use Cases
 
 ### Bug Bounty Hunting
 Run a domain scan on an in-scope target. Missing security headers, exposed subdomains, and sensitive paths in robots.txt are all reportable findings on platforms like HackerOne and Bugcrowd.
@@ -172,7 +172,7 @@ Run it on your own domain or company domain to see what an attacker would find b
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Shodan API integration (exposed ports & services)
 - [ ] VirusTotal domain reputation check
@@ -200,7 +200,7 @@ The author assumes no liability for misuse. Always get written authorization bef
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how:
 
@@ -213,7 +213,7 @@ Check the [Roadmap](#-roadmap) for ideas.
 
 ---
 
-## 📄 License
+##  License
 
 MIT — free to use, modify, and distribute. See [LICENSE](LICENSE).
 
