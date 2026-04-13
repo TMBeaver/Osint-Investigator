@@ -1,0 +1,27 @@
+{
+  "target": "johndoe",
+  "type": "username",
+  "timestamp": "2026-04-13T10:05:00",
+  "findings": {
+    "platforms": [
+      { "platform": "GitHub", "url": "https://github.com/johndoe" },
+      { "platform": "Reddit", "url": "https://www.reddit.com/user/johndoe" },
+      { "platform": "Dev.to", "url": "https://dev.to/johndoe" }
+    ],
+    "github": {
+      "login": "johndoe",
+      "name": "John Doe",
+      "bio": "Security researcher | CTF player",
+      "location": "London, UK",
+      "email": null,
+      "public_repos": 14,
+      "followers": 87,
+      "created_at": "2019-03-21T00:00:00Z"
+    },
+    "email_patterns": [
+      "johndoe@gmail.com",
+      "johndoe@yahoo.com",
+      "johndoe@protonmail.com"
+    ]
+  }
+}

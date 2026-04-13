@@ -1,0 +1,39 @@
+{
+  "target": "example.com",
+  "type": "domain",
+  "timestamp": "2026-04-13T10:00:00",
+  "findings": {
+    "dns": {
+      "A": "93.184.216.34",
+      "PTR": "93.184.216.34.in-addr.arpa",
+      "MX": ["0 ."],
+      "NS": ["a.iana-servers.net.", "b.iana-servers.net."]
+    },
+    "whois": {
+      "Registrar": "ICANN",
+      "Created": "1995-08-14",
+      "Expires": "2025-08-13",
+      "Name Servers": ["A.IANA-SERVERS.NET", "B.IANA-SERVERS.NET"]
+    },
+    "http": {
+      "https": 200,
+      "title": "Example Domain",
+      "technologies": []
+    },
+    "headers": {
+      "Strict-Transport-Security": null,
+      "Content-Security-Policy": null,
+      "X-Frame-Options": null,
+      "X-Content-Type-Options": null,
+      "Referrer-Policy": null,
+      "Permissions-Policy": null,
+      "X-XSS-Protection": null,
+      "Server": "ECS (dcb/7F84)"
+    },
+    "subdomains": [],
+    "crtsh": [
+      "example.com",
+      "www.example.com"
+    ]
+  }
+}
